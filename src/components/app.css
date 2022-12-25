@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro {
+  text-align: center;
+  padding: 5%;
+}
+
+.info{
+  padding: 2%;
+}
+
+.question {
+  padding: 2%;
+}
+
+.otp,
+.aes,
+.tdes {
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12%;
+  width: 100vw;
+}
+
+.title {
+  margin: 5%;
+  text-align: center;
+}
+
+h3 {
+  padding: 12px;
+}
+
+.key {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 0 5% 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 0 5% 0;
+}
+
+.encrypt,
+.decrypt {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.copy {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+}
