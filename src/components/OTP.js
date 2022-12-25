@@ -43,9 +43,14 @@ const OTP = () => {
     console.log(decryptedMessage)
   };
 
-  const handleCopy = event => {
+  const handleCopyEncryption = event => {
     event.preventDefault();
     navigator.clipboard.writeText(encryption);
+  };
+
+  const handleCopyDecryption = event => {
+    event.preventDefault();
+    navigator.clipboard.writeText(decryption);
   };
 
   return (
@@ -77,7 +82,7 @@ const OTP = () => {
         </div>
         <div className="buttons">
         <button className="encrypt" onClick={handleEncryption}>Encrypt</button>
-        <button className="copy" onClick={handleCopy}>Copy Encryption</button>
+        <button className="copy" onClick={handleCopyEncryption}>Copy Encryption</button>
         </div>
         <div className="response">
         <textarea           
@@ -115,7 +120,7 @@ const OTP = () => {
 
         <div className="buttons">
         <button className="decrypt" onClick={handleDecryption}>Decrypt</button>
-        <button className="copy" onClick={handleCopy}>Copy Decryption</button>
+        <button className="copy" onClick={handleCopyDecryption}>Copy Decryption</button>
         </div>
     
         <div className="response">
