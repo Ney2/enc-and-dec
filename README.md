@@ -21,3 +21,8 @@ Each function accepts two arguments mainly, message to be encrypted and encrypti
    - Kidist Dinku
 ### ID
    - ATR/1441/11
+   
+### Screenshot of the application
+![otp](https://user-images.githubusercontent.com/95876178/209469810-80972228-7a83-400f-9091-adaa4b3379a3.PNG)
+![aes](https://user-images.githubusercontent.com/95876178/209469816-6bcd5a4c-a5d7-4155-a134-c144814669f9.PNG)
+![tdes](https://user-images.githubusercontent.com/95876178/209469821-d6367654-26ee-40de-bab6-dd63a46ce723.PNG)
