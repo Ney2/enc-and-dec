@@ -16,7 +16,7 @@ const Home = () => {
     const tdes = () => {
         navigate('/tdes')
     }
-    
+
   return (
     <div className='intro'>
       <h1 className='info'>Encryption and Decryption Algorithm</h1>
